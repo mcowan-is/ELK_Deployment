@@ -5,7 +5,7 @@ The files in this repository were used to configure the network depicted below.
 
 Network Diagram
 
-![plot](./ELK_Deployment/Images/diagram.drawio)
+![plot](https://github.community/t/how-do-you-put-images-on-the-readme-md-file/576/5)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ansible file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -39,10 +39,16 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 The configuration details of each machine may be found below.
 
 Name	Function	IP Address	Operating System
+
 Jump Box	Gateway	10.0.0.4	Ubuntu 18.04
+
 Web-1	DVWA Container	10.0.0.5	Ubuntu 18.04
+
 Web-2	DVWA Container	10.0.0.6	Ubuntu 18.04
+
 Elk-VM	Elk Stack	10.1.0.4	Ubuntu 18.04
+
+
 Access Policies
 The machines on the internal network are not exposed to the public Internet.
 
@@ -66,10 +72,10 @@ The playbook implements the following tasks: Install pip3 Install docker.io Inst
 
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
 
-![plot](./ELK_Deployment/Images/Capture.PNG)
+![plot](https://github.com/mcowan-is/ELK_Deployment/blob/main/Images/Capture.PNG)
 
 Target Machines & Beats
-This ELK server is configured to monitor the following machines: 10.0.0.5 10.0.0.6 10.0.0.7
+This ELK server is configured to monitor the following machines: 10.0.0.5 10.0.0.6
 
 We have installed the following Beats on these machines: 10.0.0.5 10.0.0.6
 
